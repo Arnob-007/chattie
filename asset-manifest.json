@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/chattie/static/css/main.098ea786.chunk.css",
+    "main.js": "/chattie/static/js/main.fd20a32c.chunk.js",
+    "main.js.map": "/chattie/static/js/main.fd20a32c.chunk.js.map",
+    "runtime-main.js": "/chattie/static/js/runtime-main.02b2d22b.js",
+    "runtime-main.js.map": "/chattie/static/js/runtime-main.02b2d22b.js.map",
+    "static/js/2.ca14a1b6.chunk.js": "/chattie/static/js/2.ca14a1b6.chunk.js",
+    "static/js/2.ca14a1b6.chunk.js.map": "/chattie/static/js/2.ca14a1b6.chunk.js.map",
+    "index.html": "/chattie/index.html",
+    "precache-manifest.52f759d2cfd7a44d0c64a92089af3bf7.js": "/chattie/precache-manifest.52f759d2cfd7a44d0c64a92089af3bf7.js",
+    "service-worker.js": "/chattie/service-worker.js",
+    "static/css/main.098ea786.chunk.css.map": "/chattie/static/css/main.098ea786.chunk.css.map",
+    "static/js/2.ca14a1b6.chunk.js.LICENSE.txt": "/chattie/static/js/2.ca14a1b6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02b2d22b.js",
+    "static/js/2.ca14a1b6.chunk.js",
+    "static/css/main.098ea786.chunk.css",
+    "static/js/main.fd20a32c.chunk.js"
+  ]
+}
