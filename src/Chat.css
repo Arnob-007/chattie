@@ -1,0 +1,149 @@
+.chat {
+	display: flex;
+	flex-direction: column;
+}
+
+.chat__body {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+}
+
+.chat__info {
+	display: flex;
+	flex-direction: column;
+	padding: 0 10%;
+	background: rgb(106, 122, 250);
+}
+
+.chat__info h4 {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.room_name {
+	display: flex;
+	font-weight: bold;
+	background: rgba(0, 0, 0, 0.2);
+	margin: 5%;
+	padding: 5%;
+	justify-content: center;
+}
+
+.room__users {
+	margin-top: 5px;
+}
+
+.room__user {
+	cursor: pointer;
+	padding: 5px;
+}
+
+.room__user:hover {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.chat__msgs {
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: 500;
+	background: white;
+	height: 400px;
+	padding: 2% 5%;
+	overflow-y: scroll;
+}
+
+.chat__msgs::-webkit-scrollbar {
+	display: none;
+}
+
+.msg__containerself {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.msg__containerself h6 {
+	display: none;
+}
+
+.bot__msg div h6 {
+	text-transform: capitalize;
+	background: rgb(106, 122, 250);
+	color: white;
+	display: flex;
+	padding: 1px 5px 2px 5px;
+	width: fit-content;
+	border-radius: 4px;
+}
+
+.msg__containerself .chat__msg {
+	background: rgb(106, 122, 250);
+	color: white;
+}
+
+.chat__msg {
+	width: fit-content;
+	margin-top: 1%;
+	padding: 0.3rem 0.5rem 0.5rem 0.5rem;
+	border-radius: 8px;
+	font-size: 0.8rem;
+	background: rgb(229, 230, 255);
+}
+
+.chat__msg h6 {
+	color: rgb(106, 122, 250);
+}
+
+.chat__footer {
+	display: flex;
+	padding: 3%;
+	background: rgb(92, 110, 251);
+}
+
+.chat__footer div {
+	display: flex;
+	background: white;
+	flex: 1;
+	padding: 0.5% 0% 0.5% 2%;
+	border-radius: 100vh;
+}
+
+.chat__input {
+	flex: 1;
+	outline: none;
+	border: none;
+	font-size: 0.9rem;
+}
+
+.chat__footer button {
+	background: transparent;
+	color: rgb(106, 122, 250);
+	border: none;
+	display: flex;
+	margin-left: 5px;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+@media (max-width: 500px) {
+	.chat__body {
+		display: flex;
+		flex: 1;
+	}
+	.chat__msgs {
+		flex: 1;
+		height: 83vh;
+		max-height: 83vh;
+	}
+	.chat__info {
+		display: none;
+	}
+	.chat__footer {
+		height: 5vh;
+	}
+	.mobile__footer {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}

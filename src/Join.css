@@ -1,0 +1,31 @@
+.join {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	color: white;
+	background: rgb(106, 122, 250);
+}
+
+.join input {
+	margin: 2% 0;
+	padding: 2%;
+	outline: none;
+}
+
+.join button {
+	margin-top: 3%;
+	padding: 1%;
+	color: rgb(106, 122, 250);
+	cursor: pointer;
+}
+
+.app__title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0 40px 0;
+	margin-bottom: 10px;
+	gap: 20px;
+	border-bottom: 1px solid white;
+}
